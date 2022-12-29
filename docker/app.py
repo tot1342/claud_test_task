@@ -37,4 +37,4 @@ def predict_of_image():
         image_string = image_string.decode('utf-8')
         return render_template('show_image.html', filestring=image_string)
     else:
-        return render_template('show_image_pass.html')
+        return render_template('get_image.html')
