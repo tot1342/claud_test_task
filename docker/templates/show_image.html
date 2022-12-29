@@ -1,0 +1,17 @@
+<html>
+   <body>
+      <form action = "http://localhost:8000" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+
+   </body>
+<!--   <img src={{name}} alt="my plot">-->
+   <body>
+
+      <img src="data:image/png;base64, {{filestring}}" alt="alternate" />
+
+   </body>
+
+</html>
