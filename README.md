@@ -41,5 +41,6 @@ traced_script_module.save("./docker/fasterrcnn.pt")
 ```
 
 Докер поднимет локальный веб сервер в котором можно получить результат такого вида:
+
 ![Пример](https://github.com/tot1342/claud_test_task/blob/main/docker/example_work.png)
 
